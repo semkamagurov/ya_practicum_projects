@@ -3,7 +3,7 @@ import requests # Импорт библиотеки для запросов к �
 from bs4 import BeautifulSoup # Импорт библиотеки для автоматического парсинга странички
 
 
-URL='https://store.data-analyst.praktikum-services.ru/'
+URL='https://someurl.ru/'
 req = requests.get(URL) # GET-запрос
 soup = BeautifulSoup(req.text, 'lxml')
 
